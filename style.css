@@ -1,0 +1,49 @@
+.container {
+    margin: 10px 0;
+    display: flex;
+    width: 160px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+    border-color: white;
+}
+
+.bold, .underline, .italic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid white;
+}
+
+.bold:hover, .underline:hover, .italic:hover {
+    background-color: grey;
+}
+
+input {
+    border: none;
+    width: 100px;
+    font-size: 16px;
+    padding: 4px;
+}
+
+input:not(:focus) {
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid grey;
+}
+
+tr:first-child td, td:first-child {
+    padding: 4px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.active-button {
+    background-color: grey;
+}
